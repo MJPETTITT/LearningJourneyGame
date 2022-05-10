@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body onload="shuffle(questions);">
+
+<h1>Learning Journey Game</h1>
+<h2>Click the cards below.</h2>
+	<h3>Answer the question on the left, using the method on the right.</h3>
+<div id="flipper" onclick="flipOnOff();">
+<div class="flip-card" id="card-a">
+  <div class="flip-card-inner">
+    <div class="flip-card-front" id="card-front-a">
+		
+				<div class="container">
+		<div class="center">
+      <h1>question</h1>
+			</div>
+			</div>
+		
+
+    </div>
+    <div class="flip-card-back" id="card-back-a">
+		<div class="container">
+		<div class="center">
+      <h2 id="question-container">how would you do this?</h2> 
+			</div>
+			</div>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card" id="card-b">
+  <div class="flip-card-inner">
+    <div class="flip-card-front" id="card-front-b">
+				<div class="container">
+		<div class="center">
+      <h1>how to answer</h1>
+    </div>
+    </div>
+    </div>
+    <div class="flip-card-back" id="card-back-b">
+				<div class="container">
+		<div class="center">
+      <h2 id="how-to-container">answer yourself</h2> 
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+	</div>
+
+	<div id="question-number">Question 0/21</div>
+
+</body>
+</html>
