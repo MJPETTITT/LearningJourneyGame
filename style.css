@@ -95,3 +95,13 @@ body {
 	text-transform: uppercase;
 	font-size: 1.5em;
 }
+
+#timer {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 20px;
+}
+
+.instructions {
+		margin: 20px;
+}
